@@ -1,21 +1,21 @@
 The Hardest Thing About React-Redux
 
 
-Question: How do I access store data from inside a component?
+**Question:** How do I access store data from inside a component?
 
-Answer: Use mapStateToProps. It returns an object filled with store data, which are added to the component's props via connect().
+**Answer:** Use mapStateToProps. It returns an object filled with store data, which are added to the component's props via connect().
 
-Syntax:
+**SYNTAX**
 ```
 const mapStateToProps = state => ({
    key:  value
 })
 ```
-Question: How do I update the store from inside a component?
+**Question:** How do I update the store from inside a component?
 
-Answer: Use mapDispatchToProps. It returns a an object filled with methods that update the store. These methods are also added to the component's props via connect().
+**Answer:** Use mapDispatchToProps. It returns a an object filled with methods that update the store. These methods are also added to the component's props via connect().
 
-Syntax:
+**SYNTAX**
 ```
 const mapDispatchToProps = dispatch => ({
    methodName: arg => {
