@@ -28,7 +28,8 @@ connect(mapStateToProps, mapDispatchToProps)(componentName)
 ```
 IMPORTANT! The connect function's arguments must be in a specific order: **mapStateToProps must come before mapDispatchToProps** in order for the connect function to work.
 
-A basic React component that accesses data from the redux store and updates the redux store will typically contain the following elements:
+**EXAMPLE**
+
 ```
 import React from 'react'
 import { connect } from 'react-redux'
