@@ -1,4 +1,5 @@
-React without Redux
+##The Hardest Thing About React-Redux##
+
 
 Question: How do I access store data from inside a component?
 Answer: Use mapStateToProps. It returns an object filled with store data, which are added to the component's props via connect().
