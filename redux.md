@@ -2,7 +2,7 @@
 
 When I started learning React-Redux, I had no difficulty understanding the concept of the redux store, reducers, action objects, action creators. The redux store contains the state of the entire application. Reducers update the redux store. Action objects contain an action and a payload. Action creators are functions that return action objects.
 
-The hard part was figuring out how to access and update redux store data inside a component. I was not alone in my confusion. Many of my developers were bewildered by the concept of mapStateToProps, mapDispatchToProps, and the connect function. I saw developers invoking the connect function in instances where it was not needed. I wrote this article to explain these tricky concepts in plain English.
+The hard part was figuring out how to access and update redux store data inside a component. I was not alone in my confusion. Many of my fellow developers were bewildered by the concept of mapStateToProps, mapDispatchToProps, and the connect function. I wrote this article to explain these tricky concepts in plain English.
 
 **Question:** How do I access store data from inside a component?
 
