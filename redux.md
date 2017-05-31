@@ -1,5 +1,9 @@
 ## The Hardest Thing About React-Redux
 
+When I started learning React-Redux, I had no difficulty understanding the concept of the redux store, reducers, action objects, action creators. The redux store contains the state of the entire application. Reducers update the redux store. Action objects contain an action and a payload. Action creators are functions that return action objects.
+
+The hard part was figuring out how to access and update redux store data inside a component. I was not alone in my confusion. Many of my developers were bewildered by the concept of mapStateToProps, mapDispatchToProps, and the connect function. I saw developers invoking the connect function in instances where it was not needed. I wrote this article to explain these tricky concepts in plain English.
+
 **Question:** How do I access store data from inside a component?
 
 **Answer:** Use mapStateToProps. It returns an object filled with store data, which are added to the component's props via connect().
@@ -22,7 +26,7 @@ const mapDispatchToProps = dispatch => ({
    }
 })
 ```
-To pass down store data and methods to a component, use the **connect** function:
+Finally, to pass down store data and methods to a component, use the **connect** function:
 ```
 connect(mapStateToProps, mapDispatchToProps)(componentName)
 ```
