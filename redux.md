@@ -23,10 +23,12 @@ const mapDispatchToProps = dispatch => ({
    }
 })
 ```
-To pass down store data and methods to a component, use the following:
+To pass down store data and methods to a component, use the connect function:
 ```
 connect(mapStateToProps, mapDispatchToProps)(componentName)
 ```
+IMPORTANT! The connect function's arguments must be in a specific order: mapStateToProps must come before mapDispatchToProps in order for the connect function to work.
+
 A basic React component that accesses data from the redux store and updates the redux store will typically contain the following elements:
 ```
 import React from 'react'
