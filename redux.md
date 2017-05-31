@@ -2,7 +2,9 @@ The Hardest Thing About React-Redux
 
 
 Question: How do I access store data from inside a component?
+
 Answer: Use mapStateToProps. It returns an object filled with store data, which are added to the component's props via connect().
+
 Syntax:
 ```
 const mapStateToProps = state => ({
@@ -10,7 +12,9 @@ const mapStateToProps = state => ({
 })
 ```
 Question: How do I update the store from inside a component?
+
 Answer: Use mapDispatchToProps. It returns a an object filled with methods that update the store. These methods are also added to the component's props via connect().
+
 Syntax:
 ```
 const mapDispatchToProps = dispatch => ({
@@ -19,9 +23,10 @@ const mapDispatchToProps = dispatch => ({
    }
 })
 ```
-Use connect(mapStateToProps, mapDispatchToProps)(componentName) to pass down store data & methods to a component.
-
-
+To pass down store data and methods to a component, use the following:
+```
+connect(mapStateToProps, mapDispatchToProps)(componentName)
+```
 A basic React component that accesses data from the redux store and updates the redux store will typically contain the following elements:
 ```
 import React from 'react'
