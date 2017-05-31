@@ -1,4 +1,4 @@
-## What does the connect function do in react-redux?
+## What Does the Connect() Function Do in React-Redux?
 
 When I started learning React-Redux, I had no difficulty understanding the concept of the redux store, reducers, action objects, and action creators. The redux store contains the state of the entire application. Reducers update the redux store. Action objects contain an action and a payload. Action creators are functions that return action objects.
 
