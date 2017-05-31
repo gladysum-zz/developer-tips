@@ -1,4 +1,4 @@
-##The Hardest Thing About React-Redux
+## The Hardest Thing About React-Redux
 
 **Question:** How do I access store data from inside a component?
 
