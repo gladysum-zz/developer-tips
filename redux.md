@@ -28,7 +28,7 @@ const mapDispatchToProps = dispatch => ({
 ```
 Finally, to pass down store data and methods to a component, use the **connect** function:
 ```
-connect(mapStateToProps, mapDispatchToProps)(componentName)
+connect(mapStateToProps, mapDispatchToProps)(ComponentName)
 ```
 IMPORTANT! The connect function's arguments must be in a specific order: **mapStateToProps must come before mapDispatchToProps** in order for the connect function to work.
 
@@ -69,5 +69,5 @@ const mapDispatchToProps = dispatch => ({
   }
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(componentX)
+export default connect(mapStateToProps, mapDispatchToProps)(ComponentX)
 ```
