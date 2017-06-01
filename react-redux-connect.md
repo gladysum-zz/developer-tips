@@ -36,7 +36,7 @@ IMPORTANT! The connect function's arguments must be in a specific order: **mapSt
 
 ```
 import React from 'react'
-import { connect } from 'react-redux'
+import {connect} from 'react-redux'
 import {actionCreator1, actionCreator2} from './action-creators'
 
 
