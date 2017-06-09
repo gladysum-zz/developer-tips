@@ -75,6 +75,9 @@ export default connect(mapStateToProps, mapDispatchToProps)(ComponentX)
 Thanks to the connect() function, you can now access the following from inside ComponentX:
 
 {this.props.property1}
+
 {this.props.property2}
+
 {this.props.function1}
+
 {this.props.function2}
